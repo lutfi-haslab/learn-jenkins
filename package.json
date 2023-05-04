@@ -5,6 +5,10 @@
   "repository": "https://github.com/lutfi-haslab/learn-jenkins.git",
   "author": "lutfi-haslab <work.lutfiikbalmajid@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "tsc --buid",
+    "start": "pm2 start dist/index.js --watch"
+  },
   "dependencies": {
     "express": "^4.18.2"
   },
