@@ -6,7 +6,7 @@
   "author": "lutfi-haslab <work.lutfiikbalmajid@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "tsc --buid",
+    "build": "tsc --build",
     "start": "pm2 start dist/index.js --watch"
   },
   "dependencies": {
