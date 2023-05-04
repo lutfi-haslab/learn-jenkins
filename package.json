@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc --build",
-    "start": "pm2 start dist/index.js --watch"
+    "start": "pm2 start dist/index.js"
   },
   "dependencies": {
     "express": "^4.18.2"
